@@ -30,7 +30,8 @@ namespace HomeWork_2_1
         {
             if (_life < 1)
             {
-                _prefab.SetActive(false);
+                Destroy(_prefab);
+                StartGame._countBlocks--;
                 CommonData._currentScore += _score;
             }
             else

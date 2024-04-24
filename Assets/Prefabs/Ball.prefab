@@ -137,4 +137,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 5913807003852196211}
-  _startForce: {x: 100, y: 400}
+  _startForce: {x: 300, y: 100}
