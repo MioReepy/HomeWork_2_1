@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace HomeWorl_2_1
+namespace HomeWork_2_1
 {
     public class MoveController : MonoBehaviour
     {
         [SerializeField] private float _speed;
         [SerializeField] private Rigidbody2D _rb;
         [SerializeField] private float _platformBorder;
-
+        private Vector2 _startPosition = Vector2.zero;
 
         private void FixedUpdate()
         {
